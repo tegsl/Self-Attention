@@ -6368,7 +6368,7 @@ VL_ATTR_COLD void Vself_attention___024root___ctor_var_reset(Vself_attention___0
     vlSelf->done = VL_RAND_RESET_I(1);
     VL_RAND_RESET_W(65536, vlSelf->output_tokens_flat);
     vlSelf->fsm_debug_state = VL_RAND_RESET_I(3);
-    vlSelf->debug_state_attn = VL_RAND_RESET_I(2);
+    vlSelf->debug_state_attn = VL_RAND_RESET_I(3);
     vlSelf->self_attention__DOT__fsm_start = VL_RAND_RESET_I(1);
     vlSelf->self_attention__DOT__fsm_done = VL_RAND_RESET_I(1);
     vlSelf->self_attention__DOT__qkv_start = VL_RAND_RESET_I(1);
@@ -6464,7 +6464,7 @@ VL_ATTR_COLD void Vself_attention___024root___ctor_var_reset(Vself_attention___0
     vlSelf->self_attention__DOT__softmax_inst__DOT__sum_exp = VL_RAND_RESET_I(32);
     vlSelf->self_attention__DOT__softmax_inst__DOT__recip_sum = VL_RAND_RESET_I(16);
     vlSelf->self_attention__DOT__softmax_inst__DOT__product = VL_RAND_RESET_I(32);
-    vlSelf->self_attention__DOT__attn_inst__DOT__state = VL_RAND_RESET_I(2);
+    vlSelf->self_attention__DOT__attn_inst__DOT__state = VL_RAND_RESET_I(3);
     vlSelf->self_attention__DOT__attn_inst__DOT__i = VL_RAND_RESET_I(6);
     vlSelf->self_attention__DOT__attn_inst__DOT__j = VL_RAND_RESET_I(6);
     vlSelf->self_attention__DOT__attn_inst__DOT__k = VL_RAND_RESET_I(6);

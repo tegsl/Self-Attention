@@ -33,7 +33,7 @@ class alignas(VL_CACHE_LINE_BYTES) Vself_attention VL_NOT_FINAL : public Verilat
     VL_IN8(&start,0,0);
     VL_OUT8(&done,0,0);
     VL_OUT8(&fsm_debug_state,2,0);
-    VL_OUT8(&debug_state_attn,1,0);
+    VL_OUT8(&debug_state_attn,2,0);
     VL_INW(&input_tokens_flat,65535,0,2048);
     VL_OUTW(&output_tokens_flat,65535,0,2048);
 

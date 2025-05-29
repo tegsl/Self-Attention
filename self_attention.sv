@@ -13,7 +13,7 @@ module self_attention #(
 
     // 🟩 NEW: FSM debug output for testbench visibility
     output logic [2:0] fsm_debug_state,
-    output logic [1:0] debug_state_attn
+    output logic [2:0] debug_state_attn
 );
 
     // Control FSM I/O

@@ -21,7 +21,7 @@ class alignas(VL_CACHE_LINE_BYTES) Vself_attention___024root final : public Veri
         VL_IN8(start,0,0);
         VL_OUT8(done,0,0);
         VL_OUT8(fsm_debug_state,2,0);
-        VL_OUT8(debug_state_attn,1,0);
+        VL_OUT8(debug_state_attn,2,0);
         CData/*0:0*/ self_attention__DOT__fsm_start;
         CData/*0:0*/ self_attention__DOT__fsm_done;
         CData/*0:0*/ self_attention__DOT__qkv_start;
@@ -43,7 +43,7 @@ class alignas(VL_CACHE_LINE_BYTES) Vself_attention___024root final : public Veri
         CData/*2:0*/ self_attention__DOT__softmax_inst__DOT__state;
         CData/*5:0*/ self_attention__DOT__softmax_inst__DOT__i;
         CData/*5:0*/ self_attention__DOT__softmax_inst__DOT__j;
-        CData/*1:0*/ self_attention__DOT__attn_inst__DOT__state;
+        CData/*2:0*/ self_attention__DOT__attn_inst__DOT__state;
         CData/*5:0*/ self_attention__DOT__attn_inst__DOT__i;
         CData/*5:0*/ self_attention__DOT__attn_inst__DOT__j;
         CData/*5:0*/ self_attention__DOT__attn_inst__DOT__k;

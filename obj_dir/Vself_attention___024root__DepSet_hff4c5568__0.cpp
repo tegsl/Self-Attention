@@ -1122,7 +1122,7 @@ VL_INLINE_OPT void Vself_attention___024root___nba_sequent__TOP__0(Vself_attenti
     __Vdly__self_attention__DOT__softmax_inst__DOT__sum_exp = 0;
     IData/*31:0*/ __Vdly__self_attention__DOT__softmax_inst__DOT__product;
     __Vdly__self_attention__DOT__softmax_inst__DOT__product = 0;
-    CData/*1:0*/ __Vdly__self_attention__DOT__attn_inst__DOT__state;
+    CData/*2:0*/ __Vdly__self_attention__DOT__attn_inst__DOT__state;
     __Vdly__self_attention__DOT__attn_inst__DOT__state = 0;
     CData/*5:0*/ __Vdly__self_attention__DOT__attn_inst__DOT__i;
     __Vdly__self_attention__DOT__attn_inst__DOT__i = 0;
@@ -1132,6 +1132,8 @@ VL_INLINE_OPT void Vself_attention___024root___nba_sequent__TOP__0(Vself_attenti
     __Vdly__self_attention__DOT__attn_inst__DOT__k = 0;
     IData/*31:0*/ __Vdly__self_attention__DOT__attn_inst__DOT__acc;
     __Vdly__self_attention__DOT__attn_inst__DOT__acc = 0;
+    CData/*0:0*/ __Vdly__self_attention__DOT__attn_done;
+    __Vdly__self_attention__DOT__attn_done = 0;
     SData/*15:0*/ __VdlyVal__self_attention__DOT__qkv_inst__DOT__Q__v0;
     __VdlyVal__self_attention__DOT__qkv_inst__DOT__Q__v0 = 0;
     CData/*5:0*/ __VdlyDim0__self_attention__DOT__qkv_inst__DOT__Q__v0;
@@ -2208,6 +2210,14 @@ VL_INLINE_OPT void Vself_attention___024root___nba_sequent__TOP__0(Vself_attenti
     __VdlyVal__self_attention__DOT__kv_cache_inst__DOT__K_out__v191 = 0;
     // Body
     __Vdly__self_attention__DOT__token_counter = vlSelfRef.self_attention__DOT__token_counter;
+    __Vdly__self_attention__DOT__qk_inst__DOT__state 
+        = vlSelfRef.self_attention__DOT__qk_inst__DOT__state;
+    __Vdly__self_attention__DOT__qk_inst__DOT__i = vlSelfRef.self_attention__DOT__qk_inst__DOT__i;
+    __Vdly__self_attention__DOT__qk_inst__DOT__k = vlSelfRef.self_attention__DOT__qk_inst__DOT__k;
+    __Vdly__self_attention__DOT__qk_inst__DOT__acc 
+        = vlSelfRef.self_attention__DOT__qk_inst__DOT__acc;
+    __Vdly__self_attention__DOT__qk_inst__DOT__product 
+        = vlSelfRef.self_attention__DOT__qk_inst__DOT__product;
     __Vdly__self_attention__DOT__attn_inst__DOT__i 
         = vlSelfRef.self_attention__DOT__attn_inst__DOT__i;
     __Vdly__self_attention__DOT__attn_inst__DOT__j 
@@ -2218,14 +2228,7 @@ VL_INLINE_OPT void Vself_attention___024root___nba_sequent__TOP__0(Vself_attenti
         = vlSelfRef.self_attention__DOT__attn_inst__DOT__acc;
     __Vdly__self_attention__DOT__attn_inst__DOT__state 
         = vlSelfRef.self_attention__DOT__attn_inst__DOT__state;
-    __Vdly__self_attention__DOT__qk_inst__DOT__state 
-        = vlSelfRef.self_attention__DOT__qk_inst__DOT__state;
-    __Vdly__self_attention__DOT__qk_inst__DOT__i = vlSelfRef.self_attention__DOT__qk_inst__DOT__i;
-    __Vdly__self_attention__DOT__qk_inst__DOT__k = vlSelfRef.self_attention__DOT__qk_inst__DOT__k;
-    __Vdly__self_attention__DOT__qk_inst__DOT__acc 
-        = vlSelfRef.self_attention__DOT__qk_inst__DOT__acc;
-    __Vdly__self_attention__DOT__qk_inst__DOT__product 
-        = vlSelfRef.self_attention__DOT__qk_inst__DOT__product;
+    __Vdly__self_attention__DOT__attn_done = vlSelfRef.self_attention__DOT__attn_done;
     __Vdly__self_attention__DOT__softmax_inst__DOT__state 
         = vlSelfRef.self_attention__DOT__softmax_inst__DOT__state;
     __Vdly__self_attention__DOT__softmax_inst__DOT__i 
@@ -2918,7 +2921,7 @@ VL_INLINE_OPT void Vself_attention___024root___nba_sequent__TOP__0(Vself_attenti
         __Vdly__self_attention__DOT__attn_inst__DOT__j = 0U;
         __Vdly__self_attention__DOT__attn_inst__DOT__k = 0U;
         __Vdly__self_attention__DOT__attn_inst__DOT__acc = 0U;
-        vlSelfRef.self_attention__DOT__attn_done = 0U;
+        __Vdly__self_attention__DOT__attn_done = 0U;
         __Vdly__self_attention__DOT__qk_inst__DOT__state = 0U;
         __Vdly__self_attention__DOT__qk_inst__DOT__i = 0U;
         __Vdly__self_attention__DOT__qk_inst__DOT__k = 0U;
@@ -3851,36 +3854,43 @@ VL_INLINE_OPT void Vself_attention___024root___nba_sequent__TOP__0(Vself_attenti
         } else {
             vlSelfRef.self_attention__DOT__fsm_start = 0U;
         }
-        if ((2U & (IData)(vlSelfRef.self_attention__DOT__attn_inst__DOT__state))) {
+        if ((4U & (IData)(vlSelfRef.self_attention__DOT__attn_inst__DOT__state))) {
+            if ((2U & (IData)(vlSelfRef.self_attention__DOT__attn_inst__DOT__state))) {
+                __Vdly__self_attention__DOT__attn_inst__DOT__state = 0U;
+            } else if ((1U & (IData)(vlSelfRef.self_attention__DOT__attn_inst__DOT__state))) {
+                __Vdly__self_attention__DOT__attn_inst__DOT__state = 0U;
+            } else {
+                VL_ASSIGNSEL_WI(65536,16,(0xffffU & 
+                                          VL_SHIFTL_III(16,32,32, 
+                                                        (VL_SHIFTL_III(32,32,32, (IData)(vlSelfRef.self_attention__DOT__attn_inst__DOT__i), 6U) 
+                                                         + (IData)(vlSelfRef.self_attention__DOT__attn_inst__DOT__k)), 4U)), vlSelfRef.output_tokens_flat, 
+                                (0xffffU & vlSelfRef.self_attention__DOT__attn_inst__DOT__acc));
+                __Vdly__self_attention__DOT__attn_inst__DOT__j = 0U;
+                if ((0x3fU == (IData)(vlSelfRef.self_attention__DOT__attn_inst__DOT__k))) {
+                    __Vdly__self_attention__DOT__attn_inst__DOT__k = 0U;
+                    if ((0x3fU == (IData)(vlSelfRef.self_attention__DOT__attn_inst__DOT__i))) {
+                        __Vdly__self_attention__DOT__attn_done = 1U;
+                        __Vdly__self_attention__DOT__attn_inst__DOT__state = 0U;
+                    } else {
+                        __Vdly__self_attention__DOT__attn_inst__DOT__i 
+                            = (0x3fU & ((IData)(1U) 
+                                        + (IData)(vlSelfRef.self_attention__DOT__attn_inst__DOT__i)));
+                        __Vdly__self_attention__DOT__attn_inst__DOT__state = 1U;
+                    }
+                } else {
+                    __Vdly__self_attention__DOT__attn_inst__DOT__k 
+                        = (0x3fU & ((IData)(1U) + (IData)(vlSelfRef.self_attention__DOT__attn_inst__DOT__k)));
+                    __Vdly__self_attention__DOT__attn_inst__DOT__state = 1U;
+                }
+                __Vdly__self_attention__DOT__attn_inst__DOT__acc = 0U;
+            }
+        } else if ((2U & (IData)(vlSelfRef.self_attention__DOT__attn_inst__DOT__state))) {
             if ((1U & (IData)(vlSelfRef.self_attention__DOT__attn_inst__DOT__state))) {
                 __Vdly__self_attention__DOT__attn_inst__DOT__acc 
                     = (vlSelfRef.self_attention__DOT__attn_inst__DOT__acc 
                        + VL_SHIFTRS_III(32,32,32, vlSelfRef.self_attention__DOT__attn_inst__DOT__product_reg, 0xeU));
                 if ((0x3fU == (IData)(vlSelfRef.self_attention__DOT__attn_inst__DOT__j))) {
-                    VL_ASSIGNSEL_WI(65536,16,(0xffffU 
-                                              & VL_SHIFTL_III(16,32,32, 
-                                                              (VL_SHIFTL_III(32,32,32, (IData)(vlSelfRef.self_attention__DOT__attn_inst__DOT__i), 6U) 
-                                                               + (IData)(vlSelfRef.self_attention__DOT__attn_inst__DOT__k)), 4U)), vlSelfRef.output_tokens_flat, 
-                                    (0xffffU & vlSelfRef.self_attention__DOT__attn_inst__DOT__acc));
-                    __Vdly__self_attention__DOT__attn_inst__DOT__j = 0U;
-                    if ((0x3fU == (IData)(vlSelfRef.self_attention__DOT__attn_inst__DOT__k))) {
-                        __Vdly__self_attention__DOT__attn_inst__DOT__k = 0U;
-                        if ((0x3fU == (IData)(vlSelfRef.self_attention__DOT__attn_inst__DOT__i))) {
-                            vlSelfRef.self_attention__DOT__attn_done = 1U;
-                            __Vdly__self_attention__DOT__attn_inst__DOT__state = 0U;
-                        } else {
-                            __Vdly__self_attention__DOT__attn_inst__DOT__i 
-                                = (0x3fU & ((IData)(1U) 
-                                            + (IData)(vlSelfRef.self_attention__DOT__attn_inst__DOT__i)));
-                            __Vdly__self_attention__DOT__attn_inst__DOT__state = 1U;
-                        }
-                    } else {
-                        __Vdly__self_attention__DOT__attn_inst__DOT__k 
-                            = (0x3fU & ((IData)(1U) 
-                                        + (IData)(vlSelfRef.self_attention__DOT__attn_inst__DOT__k)));
-                        __Vdly__self_attention__DOT__attn_inst__DOT__state = 1U;
-                    }
-                    __Vdly__self_attention__DOT__attn_inst__DOT__acc = 0U;
+                    __Vdly__self_attention__DOT__attn_inst__DOT__state = 4U;
                 } else {
                     __Vdly__self_attention__DOT__attn_inst__DOT__j 
                         = (0x3fU & ((IData)(1U) + (IData)(vlSelfRef.self_attention__DOT__attn_inst__DOT__j)));
@@ -3943,13 +3953,16 @@ VL_INLINE_OPT void Vself_attention___024root___nba_sequent__TOP__0(Vself_attenti
                                                            (VL_SHIFTL_III(32,32,32, (IData)(vlSelfRef.self_attention__DOT__attn_inst__DOT__j), 6U) 
                                                             + (IData)(vlSelfRef.self_attention__DOT__attn_inst__DOT__k)), 4U)))));
         } else {
-            vlSelfRef.self_attention__DOT__attn_done = 0U;
-            if (vlSelfRef.self_attention__DOT__attn_start) {
+            if (((IData)(vlSelfRef.self_attention__DOT__attn_start) 
+                 & (~ (IData)(vlSelfRef.self_attention__DOT__attn_done)))) {
                 __Vdly__self_attention__DOT__attn_inst__DOT__i = 0U;
                 __Vdly__self_attention__DOT__attn_inst__DOT__j = 0U;
                 __Vdly__self_attention__DOT__attn_inst__DOT__k = 0U;
                 __Vdly__self_attention__DOT__attn_inst__DOT__acc = 0U;
                 __Vdly__self_attention__DOT__attn_inst__DOT__state = 1U;
+            }
+            if ((1U & (~ (IData)(vlSelfRef.self_attention__DOT__attn_start)))) {
+                __Vdly__self_attention__DOT__attn_done = 0U;
             }
         }
         if ((0U == (IData)(vlSelfRef.self_attention__DOT__qk_inst__DOT__state))) {
@@ -6310,6 +6323,7 @@ VL_INLINE_OPT void Vself_attention___024root___nba_sequent__TOP__0(Vself_attenti
         = __Vdly__self_attention__DOT__attn_inst__DOT__acc;
     vlSelfRef.self_attention__DOT__attn_inst__DOT__state 
         = __Vdly__self_attention__DOT__attn_inst__DOT__state;
+    vlSelfRef.self_attention__DOT__attn_done = __Vdly__self_attention__DOT__attn_done;
     vlSelfRef.self_attention__DOT__qk_inst__DOT__state 
         = __Vdly__self_attention__DOT__qk_inst__DOT__state;
     vlSelfRef.self_attention__DOT__qk_inst__DOT__i 
