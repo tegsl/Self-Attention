@@ -131,7 +131,7 @@ module self_attention #(
         .V_flat_single(V_flat_out),
         .done(attn_done),
         .output_flat(output_tokens_flat),
-	.debug_state(debug_state_attn)
+	    .debug_state(debug_state_attn)
     );
 
     // FSM Token Sequencer

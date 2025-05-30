@@ -1086,6 +1086,22 @@ VL_INLINE_OPT void Vself_attention___024root___nba_sequent__TOP__0(Vself_attenti
     self_attention__DOT__softmax_inst__DOT__unnamedblk1__DOT__m = 0;
     IData/*31:0*/ self_attention__DOT__softmax_inst__DOT__unnamedblk3__DOT__m;
     self_attention__DOT__softmax_inst__DOT__unnamedblk3__DOT__m = 0;
+    SData/*15:0*/ __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__Vfuncout;
+    __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__Vfuncout = 0;
+    SData/*15:0*/ __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__x;
+    __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__x = 0;
+    IData/*31:0*/ __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__x2;
+    __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__x2 = 0;
+    IData/*31:0*/ __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__x3;
+    __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__x3 = 0;
+    IData/*31:0*/ __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__term1;
+    __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__term1 = 0;
+    IData/*31:0*/ __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__term2;
+    __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__term2 = 0;
+    IData/*31:0*/ __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__term3;
+    __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__term3 = 0;
+    IData/*31:0*/ __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__result;
+    __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__result = 0;
     CData/*7:0*/ __Vtableidx1;
     __Vtableidx1 = 0;
     CData/*6:0*/ __Vdly__self_attention__DOT__token_counter;
@@ -4101,11 +4117,31 @@ VL_INLINE_OPT void Vself_attention___024root___nba_sequent__TOP__0(Vself_attenti
                 }
             }
         } else if ((1U & (IData)(vlSelfRef.self_attention__DOT__softmax_inst__DOT__state))) {
+            __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__x 
+                = vlSelfRef.self_attention__DOT__softmax_inst__DOT__scores
+                [vlSelfRef.self_attention__DOT__softmax_inst__DOT__i]
+                [vlSelfRef.self_attention__DOT__softmax_inst__DOT__j];
+            __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__x2 
+                = VL_SHIFTRS_III(32,32,32, VL_MULS_III(32, 
+                                                       VL_EXTENDS_II(32,16, (IData)(__Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__x)), 
+                                                       VL_EXTENDS_II(32,16, (IData)(__Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__x))), 0xeU);
+            __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__x3 
+                = VL_SHIFTRS_III(32,32,32, VL_MULS_III(32, __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__x2, 
+                                                       VL_EXTENDS_II(32,16, (IData)(__Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__x))), 0xeU);
+            __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__term1 
+                = VL_EXTENDS_II(32,16, (IData)(__Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__x));
+            __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__term2 
+                = VL_SHIFTRS_III(32,32,32, __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__x2, 1U);
+            __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__term3 
+                = VL_SHIFTRS_III(32,32,32, __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__x3, 2U);
+            __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__result 
+                = ((IData)(0x4000U) + ((__Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__term1 
+                                        + __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__term2) 
+                                       + __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__term3));
+            __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__Vfuncout 
+                = (0xffffU & __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__result);
             __VdlyVal__self_attention__DOT__softmax_inst__DOT__exp_scores__v0 
-                = (0xffffU & VL_SHIFTR_III(16,16,32, 
-                                           vlSelfRef.self_attention__DOT__softmax_inst__DOT__scores
-                                           [vlSelfRef.self_attention__DOT__softmax_inst__DOT__i]
-                                           [vlSelfRef.self_attention__DOT__softmax_inst__DOT__j], 2U));
+                = __Vfunc_self_attention__DOT__softmax_inst__DOT__exp_taylor__0__Vfuncout;
             __VdlyDim0__self_attention__DOT__softmax_inst__DOT__exp_scores__v0 
                 = vlSelfRef.self_attention__DOT__softmax_inst__DOT__j;
             __VdlyDim1__self_attention__DOT__softmax_inst__DOT__exp_scores__v0 

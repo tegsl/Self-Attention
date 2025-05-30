@@ -24,6 +24,22 @@ module softmax_appr #(
     logic [DATA_WIDTH-1:0] recip_sum;
     logic [2*DATA_WIDTH-1:0] product;
 
+    function automatic logic [DATA_WIDTH-1:0] exp_taylor(input logic signed [DATA_WIDTH-1:0] x);
+        logic signed [2*DATA_WIDTH-1:0] x2, x3;
+        logic signed [2*DATA_WIDTH-1:0] term1, term2, term3;
+        logic signed [2*DATA_WIDTH-1:0] result;
+
+        begin
+            x2 = (x * x) >>> FRAC_BITS;
+            x3 = (x2 * x) >>> FRAC_BITS;
+            term1 = x;
+            term2 = x2 >>> 1;     // /2!
+            term3 = x3 >>> 2;     // ~ /4 as approximation of /6
+            result = (1 <<< FRAC_BITS) + term1 + term2 + term3;
+            exp_taylor = result[DATA_WIDTH-1:0];
+        end
+    endfunction
+
     // Unflatten input
     always_comb begin
         for (int m = 0; m < SEQ_LEN; m++)
@@ -56,8 +72,7 @@ module softmax_appr #(
                 end
 
                 EXP: begin
-                    // Crude exp approximation: x >> 2
-                    exp_scores[i][j] <= scores[i][j] >>> 2;
+                    exp_scores[i][j] <= exp_taylor(scores[i][j]);
 
                     if (j == SEQ_LEN - 1) begin
                         j <= 0;
@@ -100,11 +115,10 @@ module softmax_appr #(
                     end else
                         j <= j + 1;
                 end
-		default: state <= IDLE;
+
+                default: state <= IDLE;
             endcase
         end
     end
 
 endmodule
-
-
