@@ -65,7 +65,7 @@ module qkv #(
                 end
 
                 CALC: begin
-                    weight = ($unsigned(calc_j) == i) ? (16'sd1 << FRAC_BITS) : 0;
+                    weight <= ($unsigned(calc_j) == i) ? (16'sd1 << FRAC_BITS) : 0;
                     acc_q <= acc_q + (input_vec[calc_j] * weight) >>> FRAC_BITS;
                     acc_k <= acc_k + (input_vec[calc_j] * weight) >>> FRAC_BITS;
                     acc_v <= acc_v + (input_vec[calc_j] * weight) >>> FRAC_BITS;

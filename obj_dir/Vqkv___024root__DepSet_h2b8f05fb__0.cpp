@@ -40,6 +40,8 @@ VL_INLINE_OPT void Vqkv___024root___nba_sequent__TOP__0(Vqkv___024root* vlSelf) 
     __Vdly__qkv__DOT__acc_k = 0;
     IData/*31:0*/ __Vdly__qkv__DOT__acc_v;
     __Vdly__qkv__DOT__acc_v = 0;
+    SData/*15:0*/ __Vdly__qkv__DOT__weight;
+    __Vdly__qkv__DOT__weight = 0;
     CData/*0:0*/ __VdlySet__qkv__DOT__input_vec__v0;
     __VdlySet__qkv__DOT__input_vec__v0 = 0;
     SData/*15:0*/ __VdlyVal__qkv__DOT__input_vec__v64;
@@ -193,6 +195,7 @@ VL_INLINE_OPT void Vqkv___024root___nba_sequent__TOP__0(Vqkv___024root* vlSelf) 
     __Vdly__qkv__DOT__acc_q = vlSelfRef.qkv__DOT__acc_q;
     __Vdly__qkv__DOT__acc_k = vlSelfRef.qkv__DOT__acc_k;
     __Vdly__qkv__DOT__acc_v = vlSelfRef.qkv__DOT__acc_v;
+    __Vdly__qkv__DOT__weight = vlSelfRef.qkv__DOT__weight;
     __VdlySet__qkv__DOT__Q__v0 = 0U;
     __VdlySet__qkv__DOT__input_vec__v0 = 0U;
     __VdlySet__qkv__DOT__input_vec__v64 = 0U;
@@ -368,9 +371,9 @@ VL_INLINE_OPT void Vqkv___024root___nba_sequent__TOP__0(Vqkv___024root* vlSelf) 
             }
         }
     } else if ((1U & (IData)(vlSelfRef.qkv__DOT__state))) {
-        vlSelfRef.qkv__DOT__weight = (((IData)(vlSelfRef.qkv__DOT__calc_j) 
-                                       == (IData)(vlSelfRef.qkv__DOT__i))
-                                       ? 0x4000U : 0U);
+        __Vdly__qkv__DOT__weight = (((IData)(vlSelfRef.qkv__DOT__calc_j) 
+                                     == (IData)(vlSelfRef.qkv__DOT__i))
+                                     ? 0x4000U : 0U);
         __Vdly__qkv__DOT__acc_q = VL_SHIFTRS_III(32,32,32, 
                                                  (vlSelfRef.qkv__DOT__acc_q 
                                                   + 
@@ -417,6 +420,7 @@ VL_INLINE_OPT void Vqkv___024root___nba_sequent__TOP__0(Vqkv___024root* vlSelf) 
     vlSelfRef.qkv__DOT__acc_k = __Vdly__qkv__DOT__acc_k;
     vlSelfRef.qkv__DOT__acc_v = __Vdly__qkv__DOT__acc_v;
     vlSelfRef.qkv__DOT__state = __Vdly__qkv__DOT__state;
+    vlSelfRef.qkv__DOT__weight = __Vdly__qkv__DOT__weight;
     if (__VdlySet__qkv__DOT__Q__v0) {
         vlSelfRef.qkv__DOT__Q[__VdlyDim0__qkv__DOT__Q__v0] 
             = __VdlyVal__qkv__DOT__Q__v0;
