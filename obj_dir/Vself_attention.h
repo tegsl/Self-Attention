@@ -34,8 +34,17 @@ class alignas(VL_CACHE_LINE_BYTES) Vself_attention VL_NOT_FINAL : public Verilat
     VL_OUT8(&done,0,0);
     VL_OUT8(&fsm_debug_state,2,0);
     VL_OUT8(&debug_state_attn,2,0);
-    VL_INW(&input_tokens_flat,65535,0,2048);
-    VL_OUTW(&output_tokens_flat,65535,0,2048);
+    VL_INW(&input_tokens_flat,131071,0,4096);
+    VL_OUTW(&output_tokens_flat,131071,0,4096);
+    VL_OUT(&debug_q_0_0,31,0);
+    VL_OUT(&debug_k_0_0,31,0);
+    VL_OUT(&debug_k_1_0,31,0);
+    VL_OUT(&debug_qk_score_00,31,0);
+    VL_OUT(&debug_qk_score_01,31,0);
+    VL_OUT(&debug_attn_00,31,0);
+    VL_OUT(&debug_attn_01,31,0);
+    VL_OUT(&debug_softmax_sum_0,31,0);
+    VL_OUTW(&Q_flat,131071,0,4096);
 
     // CELLS
     // Public to allow access to /* verilator public */ items.

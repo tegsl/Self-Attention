@@ -17,6 +17,15 @@ Vself_attention::Vself_attention(VerilatedContext* _vcontextp__, const char* _vc
     , debug_state_attn{vlSymsp->TOP.debug_state_attn}
     , input_tokens_flat{vlSymsp->TOP.input_tokens_flat}
     , output_tokens_flat{vlSymsp->TOP.output_tokens_flat}
+    , debug_q_0_0{vlSymsp->TOP.debug_q_0_0}
+    , debug_k_0_0{vlSymsp->TOP.debug_k_0_0}
+    , debug_k_1_0{vlSymsp->TOP.debug_k_1_0}
+    , debug_qk_score_00{vlSymsp->TOP.debug_qk_score_00}
+    , debug_qk_score_01{vlSymsp->TOP.debug_qk_score_01}
+    , debug_attn_00{vlSymsp->TOP.debug_attn_00}
+    , debug_attn_01{vlSymsp->TOP.debug_attn_01}
+    , debug_softmax_sum_0{vlSymsp->TOP.debug_softmax_sum_0}
+    , Q_flat{vlSymsp->TOP.Q_flat}
     , rootp{&(vlSymsp->TOP)}
 {
     // Register model with the context

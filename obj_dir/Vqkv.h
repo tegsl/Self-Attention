@@ -32,10 +32,10 @@ class alignas(VL_CACHE_LINE_BYTES) Vqkv VL_NOT_FINAL : public VerilatedModel {
     VL_IN8(&rst,0,0);
     VL_IN8(&start,0,0);
     VL_OUT8(&done,0,0);
-    VL_INW(&input_vec_flat,1023,0,32);
-    VL_OUTW(&Q_flat,1023,0,32);
-    VL_OUTW(&K_flat,1023,0,32);
-    VL_OUTW(&V_flat,1023,0,32);
+    VL_INW(&input_vec_flat,2047,0,64);
+    VL_OUTW(&Q_flat,2047,0,64);
+    VL_OUTW(&K_flat,2047,0,64);
+    VL_OUTW(&V_flat,2047,0,64);
 
     // CELLS
     // Public to allow access to /* verilator public */ items.

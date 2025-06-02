@@ -12,9 +12,7 @@ module ctrl_fsm (
     output logic softmax_start,
     output logic attn_start,
     output logic done,
-
-    // 🔧 Debug output for simulation
-    output logic [2:0] debug_state
+    output logic [2:0] debug_state // For debugging purposes
 );
 
     typedef enum logic [2:0] {
@@ -28,24 +26,47 @@ module ctrl_fsm (
 
     state_t curr_state, next_state;
 
-    // Expose current FSM state to top-level
-    assign debug_state = curr_state;
+    // One-pulse flags per stage
+    logic issued_qkv, issued_qk, issued_softmax, issued_attn;
 
-    // State register
+    // Sequential logic
     always_ff @(posedge clk or posedge rst) begin
-        if (rst)
-            curr_state <= IDLE;
-        else
+        if (rst) begin
+            curr_state     <= IDLE;
+            issued_qkv     <= 0;
+            issued_qk      <= 0;
+            issued_softmax <= 0;
+            issued_attn    <= 0;
+        end else begin
             curr_state <= next_state;
+
+            // Issue stage flags only once per stage
+            if (curr_state == QKV && next_state == QKV)
+                issued_qkv <= 1;
+            else if (curr_state == QK && next_state == QK)
+                issued_qk <= 1;
+            else if (curr_state == SOFTMAX && next_state == SOFTMAX)
+                issued_softmax <= 1;
+            else if (curr_state == ATTN && next_state == ATTN)
+                issued_attn <= 1;
+
+            // Reset flags on new transitions
+            if (curr_state != next_state) begin
+                issued_qkv     <= 0;
+                issued_qk      <= 0;
+                issued_softmax <= 0;
+                issued_attn    <= 0;
+            end
+        end
     end
 
-    // Output logic
+    // Combinational logic
     always_comb begin
-        qkv_start      = 0;
-        qk_start       = 0;
-        softmax_start  = 0;
-        attn_start     = 0;
-        done           = 0;
+        qkv_start     = 0;
+        qk_start      = 0;
+        softmax_start = 0;
+        attn_start    = 0;
+        done          = 0;
 
         next_state = curr_state;
 
@@ -56,25 +77,25 @@ module ctrl_fsm (
             end
 
             QKV: begin
-                qkv_start = 1;
+                qkv_start = ~issued_qkv;
                 if (qkv_done)
                     next_state = QK;
             end
 
             QK: begin
-                qk_start = 1;
+                qk_start = ~issued_qk;
                 if (qk_done)
                     next_state = SOFTMAX;
             end
 
             SOFTMAX: begin
-                softmax_start = 1;
+                softmax_start = ~issued_softmax;
                 if (softmax_done)
                     next_state = ATTN;
             end
 
             ATTN: begin
-                attn_start = 1;
+                attn_start = ~issued_attn;
                 if (attn_done)
                     next_state = DONE;
             end
@@ -83,9 +104,9 @@ module ctrl_fsm (
                 done = 1;
                 next_state = IDLE;
             end
-
-            default: next_state = IDLE;
         endcase
     end
+
+    assign debug_state = curr_state;
 
 endmodule
