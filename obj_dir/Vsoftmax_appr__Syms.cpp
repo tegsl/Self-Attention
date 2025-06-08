@@ -18,7 +18,7 @@ Vsoftmax_appr__Syms::Vsoftmax_appr__Syms(VerilatedContext* contextp, const char*
     , TOP{this, namep}
 {
         // Check resources
-        Verilated::stackCheck(423);
+        Verilated::stackCheck(132);
     // Configure time unit / time precision
     _vm_contextp__->timeunit(-12);
     _vm_contextp__->timeprecision(-12);

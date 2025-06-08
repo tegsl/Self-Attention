@@ -92,454 +92,3507 @@ VL_ATTR_COLD void Vqk_mul___024root___stl_sequent__TOP__0(Vqk_mul___024root* vlS
     // Init
     IData/*31:0*/ qk_mul__DOT__unnamedblk1__DOT__m;
     qk_mul__DOT__unnamedblk1__DOT__m = 0;
+    IData/*31:0*/ qk_mul__DOT__unnamedblk3__DOT__m;
+    qk_mul__DOT__unnamedblk3__DOT__m = 0;
     // Body
-    qk_mul__DOT__unnamedblk1__DOT__m = 0U;
-    while (VL_GTS_III(32, 0x40U, qk_mul__DOT__unnamedblk1__DOT__m)) {
-        VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x800U), qk_mul__DOT__unnamedblk1__DOT__m)), vlSelfRef.scores_flat, 
+    qk_mul__DOT__unnamedblk3__DOT__m = 0U;
+    while (VL_GTS_III(32, 0x40U, qk_mul__DOT__unnamedblk3__DOT__m)) {
+        VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x800U), qk_mul__DOT__unnamedblk3__DOT__m)), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(1U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [1U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(2U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [2U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(3U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [3U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(4U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [4U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(5U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [5U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(6U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [6U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(7U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [7U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(8U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [8U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(9U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [9U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0xaU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0xaU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0xbU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0xbU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0xcU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0xcU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0xdU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0xdU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0xeU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0xeU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0xfU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0xfU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x10U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x10U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x11U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x11U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x12U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x12U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x13U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x13U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x14U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x14U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x15U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x15U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x16U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x16U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x17U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x17U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x18U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x18U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x19U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x19U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x1aU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x1aU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x1bU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x1bU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x1cU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x1cU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x1dU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x1dU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x1eU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x1eU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x1fU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x1fU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x20U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x20U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x21U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x21U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x22U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x22U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x23U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x23U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x24U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x24U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x25U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x25U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x26U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x26U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x27U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x27U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x28U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x28U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x29U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x29U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x2aU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x2aU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x2bU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x2bU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x2cU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x2cU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x2dU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x2dU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x2eU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x2eU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x2fU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x2fU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x30U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x30U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x31U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x31U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x32U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x32U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x33U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x33U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x34U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x34U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x35U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x35U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x36U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x36U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x37U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x37U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x38U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x38U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x39U) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x39U]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x3aU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x3aU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x3bU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x3bU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x3cU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x3cU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x3dU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x3dU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x3eU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x3eU]);
         VL_ASSIGNSEL_WI(131072,32,(0x1ffffU & VL_MULS_III(32, (IData)(0x20U), 
                                                           ((IData)(0x3fU) 
                                                            + 
-                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))), vlSelfRef.scores_flat, 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk3__DOT__m)))), vlSelfRef.scores_flat, 
                         vlSelfRef.qk_mul__DOT__scores
-                        [(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)]
+                        [(0x3fU & qk_mul__DOT__unnamedblk3__DOT__m)]
                         [0x3fU]);
+        qk_mul__DOT__unnamedblk3__DOT__m = ((IData)(1U) 
+                                            + qk_mul__DOT__unnamedblk3__DOT__m);
+    }
+    qk_mul__DOT__unnamedblk1__DOT__m = 0U;
+    while (VL_GTS_III(32, 0x40U, qk_mul__DOT__unnamedblk1__DOT__m)) {
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x800U), qk_mul__DOT__unnamedblk1__DOT__m)))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x800U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x800U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x800U), qk_mul__DOT__unnamedblk1__DOT__m) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x800U), qk_mul__DOT__unnamedblk1__DOT__m))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x800U), qk_mul__DOT__unnamedblk1__DOT__m)))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x800U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x800U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x800U), qk_mul__DOT__unnamedblk1__DOT__m) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x800U), qk_mul__DOT__unnamedblk1__DOT__m))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][1U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(1U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(1U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(1U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(1U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(1U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][1U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(1U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(1U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(1U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(1U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(1U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][2U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(2U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(2U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(2U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(2U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(2U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][2U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(2U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(2U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(2U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(2U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(2U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][3U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(3U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(3U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(3U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(3U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(3U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][3U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(3U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(3U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(3U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(3U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(3U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][4U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(4U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(4U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(4U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(4U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(4U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][4U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(4U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(4U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(4U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(4U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(4U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][5U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(5U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(5U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(5U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(5U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(5U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][5U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(5U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(5U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(5U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(5U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(5U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][6U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(6U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(6U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(6U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(6U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(6U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][6U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(6U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(6U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(6U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(6U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(6U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][7U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(7U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(7U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(7U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(7U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(7U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][7U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(7U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(7U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(7U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(7U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(7U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][8U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(8U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(8U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(8U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(8U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(8U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][8U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(8U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(8U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(8U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(8U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(8U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][9U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(9U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(9U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(9U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(9U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(9U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][9U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(9U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(9U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(9U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(9U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(9U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0xaU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0xaU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xaU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xaU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0xaU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0xaU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0xaU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0xaU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xaU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xaU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0xaU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0xaU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0xbU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0xbU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xbU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xbU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0xbU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0xbU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0xbU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0xbU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xbU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xbU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0xbU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0xbU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0xcU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0xcU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xcU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xcU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0xcU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0xcU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0xcU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0xcU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xcU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xcU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0xcU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0xcU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0xdU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0xdU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xdU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xdU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0xdU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0xdU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0xdU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0xdU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xdU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xdU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0xdU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0xdU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0xeU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0xeU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xeU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xeU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0xeU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0xeU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0xeU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0xeU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xeU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xeU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0xeU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0xeU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0xfU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0xfU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xfU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xfU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0xfU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0xfU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0xfU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0xfU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xfU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0xfU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0xfU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0xfU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x10U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x10U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x10U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x10U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x10U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x10U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x10U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x10U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x10U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x10U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x10U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x10U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x11U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x11U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x11U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x11U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x11U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x11U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x11U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x11U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x11U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x11U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x11U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x11U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x12U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x12U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x12U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x12U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x12U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x12U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x12U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x12U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x12U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x12U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x12U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x12U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x13U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x13U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x13U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x13U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x13U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x13U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x13U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x13U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x13U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x13U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x13U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x13U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x14U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x14U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x14U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x14U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x14U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x14U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x14U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x14U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x14U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x14U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x14U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x14U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x15U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x15U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x15U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x15U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x15U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x15U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x15U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x15U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x15U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x15U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x15U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x15U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x16U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x16U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x16U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x16U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x16U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x16U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x16U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x16U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x16U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x16U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x16U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x16U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x17U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x17U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x17U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x17U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x17U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x17U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x17U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x17U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x17U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x17U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x17U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x17U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x18U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x18U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x18U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x18U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x18U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x18U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x18U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x18U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x18U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x18U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x18U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x18U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x19U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x19U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x19U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x19U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x19U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x19U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x19U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x19U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x19U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x19U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x19U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x19U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x1aU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x1aU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1aU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1aU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x1aU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x1aU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x1aU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x1aU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1aU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1aU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x1aU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x1aU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x1bU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x1bU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1bU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1bU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x1bU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x1bU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x1bU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x1bU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1bU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1bU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x1bU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x1bU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x1cU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x1cU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1cU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1cU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x1cU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x1cU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x1cU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x1cU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1cU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1cU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x1cU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x1cU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x1dU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x1dU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1dU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1dU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x1dU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x1dU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x1dU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x1dU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1dU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1dU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x1dU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x1dU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x1eU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x1eU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1eU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1eU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x1eU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x1eU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x1eU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x1eU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1eU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1eU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x1eU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x1eU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x1fU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x1fU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1fU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1fU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x1fU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x1fU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x1fU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x1fU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1fU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x1fU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x1fU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x1fU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x20U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x20U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x20U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x20U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x20U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x20U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x20U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x20U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x20U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x20U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x20U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x20U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x21U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x21U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x21U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x21U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x21U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x21U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x21U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x21U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x21U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x21U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x21U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x21U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x22U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x22U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x22U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x22U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x22U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x22U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x22U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x22U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x22U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x22U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x22U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x22U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x23U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x23U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x23U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x23U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x23U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x23U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x23U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x23U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x23U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x23U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x23U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x23U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x24U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x24U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x24U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x24U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x24U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x24U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x24U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x24U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x24U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x24U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x24U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x24U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x25U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x25U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x25U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x25U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x25U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x25U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x25U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x25U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x25U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x25U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x25U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x25U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x26U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x26U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x26U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x26U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x26U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x26U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x26U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x26U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x26U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x26U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x26U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x26U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x27U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x27U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x27U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x27U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x27U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x27U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x27U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x27U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x27U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x27U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x27U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x27U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x28U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x28U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x28U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x28U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x28U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x28U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x28U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x28U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x28U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x28U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x28U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x28U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x29U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x29U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x29U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x29U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x29U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x29U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x29U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x29U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x29U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x29U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x29U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x29U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x2aU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x2aU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2aU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2aU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x2aU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x2aU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x2aU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x2aU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2aU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2aU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x2aU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x2aU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x2bU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x2bU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2bU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2bU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x2bU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x2bU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x2bU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x2bU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2bU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2bU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x2bU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x2bU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x2cU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x2cU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2cU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2cU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x2cU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x2cU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x2cU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x2cU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2cU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2cU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x2cU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x2cU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x2dU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x2dU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2dU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2dU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x2dU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x2dU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x2dU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x2dU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2dU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2dU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x2dU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x2dU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x2eU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x2eU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2eU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2eU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x2eU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x2eU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x2eU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x2eU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2eU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2eU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x2eU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x2eU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x2fU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x2fU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2fU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2fU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x2fU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x2fU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x2fU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x2fU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2fU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x2fU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x2fU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x2fU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x30U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x30U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x30U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x30U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x30U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x30U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x30U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x30U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x30U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x30U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x30U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x30U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x31U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x31U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x31U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x31U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x31U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x31U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x31U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x31U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x31U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x31U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x31U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x31U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x32U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x32U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x32U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x32U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x32U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x32U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x32U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x32U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x32U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x32U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x32U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x32U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x33U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x33U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x33U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x33U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x33U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x33U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x33U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x33U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x33U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x33U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x33U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x33U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x34U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x34U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x34U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x34U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x34U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x34U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x34U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x34U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x34U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x34U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x34U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x34U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x35U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x35U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x35U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x35U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x35U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x35U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x35U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x35U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x35U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x35U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x35U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x35U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x36U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x36U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x36U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x36U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x36U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x36U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x36U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x36U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x36U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x36U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x36U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x36U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x37U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x37U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x37U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x37U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x37U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x37U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x37U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x37U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x37U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x37U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x37U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x37U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x38U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x38U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x38U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x38U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x38U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x38U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x38U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x38U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x38U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x38U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x38U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x38U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x39U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x39U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x39U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x39U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x39U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x39U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x39U] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x39U) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x39U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x39U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x39U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x39U) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x3aU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x3aU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3aU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3aU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x3aU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x3aU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x3aU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x3aU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3aU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3aU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x3aU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x3aU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x3bU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x3bU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3bU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3bU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x3bU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x3bU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x3bU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x3bU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3bU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3bU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x3bU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x3bU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x3cU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x3cU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3cU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3cU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x3cU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x3cU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x3cU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x3cU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3cU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3cU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x3cU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x3cU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x3dU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x3dU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3dU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3dU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x3dU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x3dU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x3dU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x3dU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3dU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3dU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x3dU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x3dU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x3eU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x3eU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3eU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3eU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x3eU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x3eU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x3eU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x3eU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3eU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3eU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x3eU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x3eU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__Q[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x3fU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x3fU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.Q_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3fU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3fU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.Q_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x3fU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x3fU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
+        vlSelfRef.qk_mul__DOT__K[(0x3fU & qk_mul__DOT__unnamedblk1__DOT__m)][0x3fU] 
+            = (((0U == (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                            ((IData)(0x3fU) 
+                                             + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m)))))
+                 ? 0U : (vlSelfRef.K_flat[(((IData)(0x1fU) 
+                                            + (0x1ffffU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3fU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))) 
+                                           >> 5U)] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & VL_MULS_III(32, (IData)(0x20U), 
+                                                             ((IData)(0x3fU) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))))) 
+               | (vlSelfRef.K_flat[(0xfffU & (VL_MULS_III(32, (IData)(0x20U), 
+                                                          ((IData)(0x3fU) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))) 
+                                              >> 5U))] 
+                  >> (0x1fU & VL_MULS_III(32, (IData)(0x20U), 
+                                          ((IData)(0x3fU) 
+                                           + VL_MULS_III(32, (IData)(0x40U), qk_mul__DOT__unnamedblk1__DOT__m))))));
         qk_mul__DOT__unnamedblk1__DOT__m = ((IData)(1U) 
                                             + qk_mul__DOT__unnamedblk1__DOT__m);
     }
@@ -561,6 +3614,21 @@ VL_ATTR_COLD bool Vqk_mul___024root___eval_phase__stl(Vqk_mul___024root* vlSelf)
     }
     return (__VstlExecute);
 }
+
+#ifdef VL_DEBUG
+VL_ATTR_COLD void Vqk_mul___024root___dump_triggers__ico(Vqk_mul___024root* vlSelf) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vqk_mul___024root___dump_triggers__ico\n"); );
+    Vqk_mul__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    auto& vlSelfRef = std::ref(*vlSelf).get();
+    // Body
+    if ((1U & (~ vlSelfRef.__VicoTriggered.any()))) {
+        VL_DBG_MSGF("         No triggers active\n");
+    }
+    if ((1ULL & vlSelfRef.__VicoTriggered.word(0U))) {
+        VL_DBG_MSGF("         'ico' region trigger index 0 is active: Internal 'ico' trigger - first iteration\n");
+    }
+}
+#endif  // VL_DEBUG
 
 #ifdef VL_DEBUG
 VL_ATTR_COLD void Vqk_mul___024root___dump_triggers__act(Vqk_mul___024root* vlSelf) {
@@ -614,14 +3682,24 @@ VL_ATTR_COLD void Vqk_mul___024root___ctor_var_reset(Vqk_mul___024root* vlSelf) 
     vlSelf->qk_mul__DOT__i = VL_RAND_RESET_I(6);
     vlSelf->qk_mul__DOT__j = VL_RAND_RESET_I(6);
     vlSelf->qk_mul__DOT__k = VL_RAND_RESET_I(6);
-    vlSelf->qk_mul__DOT__Q_reg = VL_RAND_RESET_I(32);
-    vlSelf->qk_mul__DOT__K_reg = VL_RAND_RESET_I(32);
-    vlSelf->qk_mul__DOT__accum = VL_RAND_RESET_I(32);
+    for (int __Vi0 = 0; __Vi0 < 64; ++__Vi0) {
+        for (int __Vi1 = 0; __Vi1 < 64; ++__Vi1) {
+            vlSelf->qk_mul__DOT__Q[__Vi0][__Vi1] = VL_RAND_RESET_I(32);
+        }
+    }
+    for (int __Vi0 = 0; __Vi0 < 64; ++__Vi0) {
+        for (int __Vi1 = 0; __Vi1 < 64; ++__Vi1) {
+            vlSelf->qk_mul__DOT__K[__Vi0][__Vi1] = VL_RAND_RESET_I(32);
+        }
+    }
     for (int __Vi0 = 0; __Vi0 < 64; ++__Vi0) {
         for (int __Vi1 = 0; __Vi1 < 64; ++__Vi1) {
             vlSelf->qk_mul__DOT__scores[__Vi0][__Vi1] = VL_RAND_RESET_I(32);
         }
     }
+    vlSelf->qk_mul__DOT__mult = VL_RAND_RESET_Q(64);
+    vlSelf->qk_mul__DOT__acc = VL_RAND_RESET_I(32);
+    vlSelf->qk_mul__DOT__unnamedblk5__DOT__m = 0;
     vlSelf->__Vtrigprevexpr___TOP__clk__0 = VL_RAND_RESET_I(1);
     vlSelf->__Vtrigprevexpr___TOP__rst__0 = VL_RAND_RESET_I(1);
 }

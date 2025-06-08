@@ -39,11 +39,17 @@ void print_matrix(const std::string& name, const std::vector<std::vector<float>>
     std::cout << "\n";
 }
 
+
+uint64_t total_cycles = 0;  // global cycle counter
+constexpr double CLOCK_FREQ_MHZ = 300.0;
+constexpr double CLOCK_PERIOD_NS = 1000.0 / CLOCK_FREQ_MHZ; // 10 ns per cycle
+
 void clock_cycle(Vself_attention* dut) {
     dut->clk = 0;
     dut->eval();
     dut->clk = 1;
     dut->eval();
+    total_cycles++;  // ✅ increment clock
 }
 
 void reset_dut(Vself_attention* dut) {
@@ -299,13 +305,13 @@ void dump_q_matrix(Vself_attention* dut) {
 
 int main(int argc, char **argv) {
     Verilated::commandArgs(argc, argv);
-    
+
     // Parse command line arguments
     int test_pattern = 0;
     if (argc > 1) {
         test_pattern = std::atoi(argv[1]);
     }
-    
+
     std::cout << "🧠 Self-Attention Verilog Testbench\n";
     std::cout << "=====================================\n";
     std::cout << "Configuration:\n";
@@ -313,36 +319,45 @@ int main(int argc, char **argv) {
     std::cout << "  EMBED_DIM: " << EMBED_DIM << "\n";
     std::cout << "  FRAC_BITS: " << FRAC_BITS << "\n";
     std::cout << "  Test Pattern: " << test_pattern << "\n\n";
-    
+
     // Initialize DUT
     Vself_attention* dut = new Vself_attention;
-    
+
     try {
-        // Test sequence
+        // Run test
         reset_dut(dut);
         generate_test_inputs(dut, test_pattern);
         start_computation(dut);
-        
         bool success = wait_for_completion(dut);
-        
+
         if (success) {
             analyze_output(dut);
             std::cout << "\n🎉 Test completed successfully!\n";
             dump_q_matrix(dut);
-            print_debug_signals(dut);  // 👈 Add this line
-
+            print_debug_signals(dut);
         } else {
             std::cout << "\n💥 Test failed - check your Verilog implementation\n";
             delete dut;
             return 1;
         }
-        
+
+        // ✅ Timing Report
+        double elapsed_ns = total_cycles * CLOCK_PERIOD_NS;
+        double elapsed_ms = elapsed_ns / 1e6;
+        double tokens_per_sec = (SEQ_LEN * 1e9) / elapsed_ns;
+
+        std::cout << "\n⏱️  Total Cycles: " << total_cycles << "\n";
+        std::cout << "⏱️  Simulated Time: " << std::fixed << std::setprecision(3)
+                  << elapsed_ns << " ns (" << elapsed_ms << " ms)\n";
+        std::cout << "⚡ Throughput: " << std::fixed << std::setprecision(2)
+                  << tokens_per_sec << " tokens/sec\n";
+
     } catch (const std::exception& e) {
         std::cerr << "❌ Exception: " << e.what() << "\n";
         delete dut;
         return 1;
     }
-    
+
     delete dut;
     std::cout << "\n🏁 Testbench finished\n";
     return 0;

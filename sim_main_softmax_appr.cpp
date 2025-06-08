@@ -9,8 +9,8 @@ private:
     Vsoftmax_appr* dut;
     uint64_t sim_time;
 
-    static constexpr double CLOCK_FREQ_MHZ = 100.0;
-    static constexpr double CLOCK_PERIOD_NS = 1000.0 / CLOCK_FREQ_MHZ;  // 10 ns
+    static constexpr double CLOCK_FREQ_MHZ = 300.0;
+    static constexpr double CLOCK_PERIOD_NS = 1000.0 / CLOCK_FREQ_MHZ;  // 3.33 ns
 
     static const int INPUT_WIDTH = 32;
     static const int OUTPUT_WIDTH = 32;

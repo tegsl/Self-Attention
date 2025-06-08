@@ -15,7 +15,6 @@ Vsoftmax_appr::Vsoftmax_appr(VerilatedContext* _vcontextp__, const char* _vcname
     , done{vlSymsp->TOP.done}
     , scores_flat{vlSymsp->TOP.scores_flat}
     , softmax_scores_flat{vlSymsp->TOP.softmax_scores_flat}
-    , debug_sum_exp_0{vlSymsp->TOP.debug_sum_exp_0}
     , rootp{&(vlSymsp->TOP)}
 {
     // Register model with the context

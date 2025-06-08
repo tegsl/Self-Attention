@@ -34,7 +34,6 @@ class alignas(VL_CACHE_LINE_BYTES) Vsoftmax_appr VL_NOT_FINAL : public Verilated
     VL_OUT8(&done,0,0);
     VL_INW(&scores_flat,131071,0,4096);
     VL_OUTW(&softmax_scores_flat,131071,0,4096);
-    VL_OUT(&debug_sum_exp_0,27,0);
 
     // CELLS
     // Public to allow access to /* verilator public */ items.

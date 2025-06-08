@@ -14,89 +14,98 @@ module qk_mul #(
 );
 
     typedef enum logic [2:0] {
-        IDLE, CALC_IDX, LOAD, MULT, ACCUM, WRITE
+        IDLE,
+        LOAD,
+        MULT,
+        ACCUM,
+        WRITE
     } state_t;
 
     state_t state;
 
-    // Loop counters
     logic [$clog2(SEQ_LEN)-1:0] i, j;
     logic [$clog2(EMBED_DIM)-1:0] k;
 
-    // Working registers
-    logic signed [DATA_WIDTH-1:0] Q_val, K_val;
-    logic signed [2*DATA_WIDTH-1:0] product;
-    logic signed [DATA_WIDTH-1:0] accum;
-
-    // Output buffer
+    logic signed [DATA_WIDTH-1:0] Q [SEQ_LEN][EMBED_DIM];
+    logic signed [DATA_WIDTH-1:0] K [SEQ_LEN][EMBED_DIM];
     logic signed [DATA_WIDTH-1:0] scores [SEQ_LEN][SEQ_LEN];
 
-    // Flatten output
+    logic signed [2*DATA_WIDTH-1:0] mult;
+    logic signed [DATA_WIDTH-1:0] acc;
+
+    // Unpack Q_flat and K_flat
     always_comb begin
-        for (int m = 0; m < SEQ_LEN; m++)
-            for (int n = 0; n < SEQ_LEN; n++)
-                scores_flat[(m * SEQ_LEN + n) * DATA_WIDTH +: DATA_WIDTH] = scores[m][n];
+        for (int m = 0; m < SEQ_LEN; m++) begin
+            for (int n = 0; n < EMBED_DIM; n++) begin
+                Q[m][n] = Q_flat[(m*EMBED_DIM + n)*DATA_WIDTH +: DATA_WIDTH];
+                K[m][n] = K_flat[(m*EMBED_DIM + n)*DATA_WIDTH +: DATA_WIDTH];
+            end
+        end
     end
-    logic signed [DATA_WIDTH-1:0] scaled_acc;
+
+    // Pack scores_flat
+    always_comb begin
+        for (int m = 0; m < SEQ_LEN; m++) begin
+            for (int n = 0; n < SEQ_LEN; n++) begin
+                scores_flat[(m * SEQ_LEN + n) * DATA_WIDTH +: DATA_WIDTH] = scores[m][n];
+            end
+        end
+    end
 
     // FSM
     always_ff @(posedge clk or posedge rst) begin
         if (rst) begin
-            state <= IDLE;
             i <= 0; j <= 0; k <= 0;
-            accum <= 0;
+            acc <= 0;
             done <= 0;
+            state <= IDLE;
+            for (int m = 0; m < SEQ_LEN; m++) begin
+                for (int n = 0; n < SEQ_LEN; n++) begin
+                    scores[m][n] <= 0;
+                end
+            end
         end else begin
             case (state)
                 IDLE: begin
                     done <= 0;
                     if (start) begin
                         i <= 0; j <= 0; k <= 0;
-                        accum <= 0;
-                        state <= CALC_IDX;
+                        acc <= 0;
+                        state <= LOAD;
                     end
                 end
 
-                CALC_IDX: begin
-                    // Load Q[i][k] and K[j][k]
-                    Q_val <= Q_flat[(i * EMBED_DIM + k) * DATA_WIDTH +: DATA_WIDTH];
-                    K_val <= K_flat[(j * EMBED_DIM + k) * DATA_WIDTH +: DATA_WIDTH];
+                LOAD: begin
+                    mult <= Q[i][k] * K[j][k];
                     state <= MULT;
                 end
 
                 MULT: begin
-                    product <= Q_val * K_val;
-                    state <= ACCUM;
-                end
-
-                ACCUM: begin
-                    accum <= accum + (product >>> FRAC_BITS);
+                    acc <= acc + $signed(mult >>> FRAC_BITS);
                     if (k == EMBED_DIM - 1) begin
                         state <= WRITE;
                     end else begin
                         k <= k + 1;
-                        state <= CALC_IDX;
+                        state <= LOAD;
                     end
                 end
 
                 WRITE: begin
-                    scaled_acc = accum >>> 4;  // divide by 16, reduces dynamic range
-                    scores[i][j] <= scaled_acc;
+                    scores[i][j] <= acc;
+                    acc <= 0;
                     k <= 0;
-                    accum <= 0;
-
                     if (j == SEQ_LEN - 1) begin
                         j <= 0;
                         if (i == SEQ_LEN - 1) begin
-                            state <= IDLE;
                             done <= 1;
+                            state <= IDLE;
                         end else begin
                             i <= i + 1;
-                            state <= CALC_IDX;
+                            state <= LOAD;
                         end
                     end else begin
                         j <= j + 1;
-                        state <= CALC_IDX;
+                        state <= LOAD;
                     end
                 end
             endcase

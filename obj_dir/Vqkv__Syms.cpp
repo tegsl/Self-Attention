@@ -18,7 +18,7 @@ Vqkv__Syms::Vqkv__Syms(VerilatedContext* contextp, const char* namep, Vqkv* mode
     , TOP{this, namep}
 {
         // Check resources
-        Verilated::stackCheck(90);
+        Verilated::stackCheck(113);
     // Configure time unit / time precision
     _vm_contextp__->timeunit(-12);
     _vm_contextp__->timeprecision(-12);

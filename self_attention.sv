@@ -1,6 +1,6 @@
 module self_attention #(
     parameter DATA_WIDTH = 32,
-    parameter FRAC_BITS = 8,
+    parameter FRAC_BITS = 14,
     parameter SEQ_LEN = 64,
     parameter EMBED_DIM = 64,
     parameter QK_OUT_WIDTH = (2 * DATA_WIDTH + $clog2(EMBED_DIM)) - FRAC_BITS
@@ -79,8 +79,7 @@ module self_attention #(
             qkv #(
                 .DATA_WIDTH(DATA_WIDTH),
                 .EMBED_DIM(EMBED_DIM),
-                .FRAC_BITS(FRAC_BITS),
-                .SEQ_LEN(1)  // each handles 1 token
+                .FRAC_BITS(FRAC_BITS)
             ) qkv_inst (
                 .clk(clk),
                 .rst(rst),

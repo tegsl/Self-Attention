@@ -18,7 +18,7 @@ Vself_attention__Syms::Vself_attention__Syms(VerilatedContext* contextp, const c
     , TOP{this, namep}
 {
         // Check resources
-        Verilated::stackCheck(1366945);
+        Verilated::stackCheck(504001);
     // Configure time unit / time precision
     _vm_contextp__->timeunit(-12);
     _vm_contextp__->timeprecision(-12);

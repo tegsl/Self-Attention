@@ -31,6 +31,7 @@ VM_CLASSES_FAST += \
 
 # Generated module classes, non-fast-path, compile with low/medium optimization
 VM_CLASSES_SLOW += \
+	Vqkv__ConstPool_0 \
 	Vqkv___024root__Slow \
 	Vqkv___024root__DepSet_hef072757__0__Slow \
 	Vqkv___024root__DepSet_h2b8f05fb__0__Slow \

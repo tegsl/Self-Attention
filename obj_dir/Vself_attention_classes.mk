@@ -36,6 +36,7 @@ VM_CLASSES_SLOW += \
 	Vself_attention___024root__Slow \
 	Vself_attention___024root__DepSet_h5d609fe8__0__Slow \
 	Vself_attention___024root__DepSet_hff4c5568__0__Slow \
+	Vself_attention___024root__DepSet_hff4c5568__1__Slow \
 
 # Generated support classes, fast-path, compile with highest optimization
 VM_SUPPORT_FAST += \

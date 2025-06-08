@@ -5,6 +5,134 @@
 #include "Vqkv__pch.h"
 #include "Vqkv___024root.h"
 
+void Vqkv___024root___ico_sequent__TOP__0(Vqkv___024root* vlSelf);
+
+void Vqkv___024root___eval_ico(Vqkv___024root* vlSelf) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vqkv___024root___eval_ico\n"); );
+    Vqkv__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    auto& vlSelfRef = std::ref(*vlSelf).get();
+    // Body
+    if ((1ULL & vlSelfRef.__VicoTriggered.word(0U))) {
+        Vqkv___024root___ico_sequent__TOP__0(vlSelf);
+    }
+}
+
+VL_INLINE_OPT void Vqkv___024root___ico_sequent__TOP__0(Vqkv___024root* vlSelf) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vqkv___024root___ico_sequent__TOP__0\n"); );
+    Vqkv__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    auto& vlSelfRef = std::ref(*vlSelf).get();
+    // Body
+    vlSelfRef.qkv__DOT__next_i = vlSelfRef.qkv__DOT__i;
+    vlSelfRef.qkv__DOT__next_state = vlSelfRef.qkv__DOT__state;
+    vlSelfRef.qkv__DOT__next_j = vlSelfRef.qkv__DOT__j;
+    IData/*31:0*/ __Vilp1;
+    __Vilp1 = 0U;
+    while ((__Vilp1 <= 0x3fU)) {
+        vlSelfRef.qkv__DOT__input_vec[__Vilp1] = vlSelfRef.input_vec_flat[__Vilp1];
+        __Vilp1 = ((IData)(1U) + __Vilp1);
+    }
+    vlSelfRef.qkv__DOT__next_acc_q = vlSelfRef.qkv__DOT__acc_q;
+    vlSelfRef.qkv__DOT__next_acc_k = vlSelfRef.qkv__DOT__acc_k;
+    vlSelfRef.qkv__DOT__next_acc_v = vlSelfRef.qkv__DOT__acc_v;
+    if ((2U & (IData)(vlSelfRef.qkv__DOT__state))) {
+        if ((1U & (~ (IData)(vlSelfRef.qkv__DOT__state)))) {
+            if ((0x3fU != (IData)(vlSelfRef.qkv__DOT__i))) {
+                vlSelfRef.qkv__DOT__next_i = (0x7fU 
+                                              & ((IData)(1U) 
+                                                 + (IData)(vlSelfRef.qkv__DOT__i)));
+                vlSelfRef.qkv__DOT__next_j = 0U;
+                vlSelfRef.qkv__DOT__next_acc_q = 0ULL;
+                vlSelfRef.qkv__DOT__next_acc_k = 0ULL;
+                vlSelfRef.qkv__DOT__next_acc_v = 0ULL;
+            }
+        }
+        vlSelfRef.qkv__DOT__next_state = ((1U & (IData)(vlSelfRef.qkv__DOT__state))
+                                           ? 0U : (
+                                                   (0x3fU 
+                                                    == (IData)(vlSelfRef.qkv__DOT__i))
+                                                    ? 3U
+                                                    : 1U));
+    } else {
+        if ((1U & (~ (IData)(vlSelfRef.qkv__DOT__state)))) {
+            if (vlSelfRef.start) {
+                vlSelfRef.qkv__DOT__next_i = 0U;
+            }
+        }
+        if ((1U & (IData)(vlSelfRef.qkv__DOT__state))) {
+            if ((0x3fU == (IData)(vlSelfRef.qkv__DOT__j))) {
+                vlSelfRef.qkv__DOT__next_state = 2U;
+            }
+            if ((0x3fU != (IData)(vlSelfRef.qkv__DOT__j))) {
+                vlSelfRef.qkv__DOT__next_j = (0x7fU 
+                                              & ((IData)(1U) 
+                                                 + (IData)(vlSelfRef.qkv__DOT__j)));
+            }
+            vlSelfRef.qkv__DOT__next_acc_q = (vlSelfRef.qkv__DOT__acc_q 
+                                              + VL_SHIFTRS_QQI(64,64,32, 
+                                                               VL_MULS_QQQ(64, 
+                                                                           VL_EXTENDS_QI(64,32, 
+                                                                                vlSelfRef.qkv__DOT__input_vec
+                                                                                [
+                                                                                (0x3fU 
+                                                                                & (IData)(vlSelfRef.qkv__DOT__j))]), 
+                                                                           VL_EXTENDS_QI(64,32, 
+                                                                                (((IData)(vlSelfRef.qkv__DOT__i) 
+                                                                                == (IData)(vlSelfRef.qkv__DOT__j))
+                                                                                 ? 0x4000U
+                                                                                 : 0U))), 0xeU));
+            vlSelfRef.qkv__DOT__next_acc_k = (vlSelfRef.qkv__DOT__acc_k 
+                                              + VL_SHIFTRS_QQI(64,64,32, 
+                                                               VL_MULS_QQQ(64, 
+                                                                           VL_EXTENDS_QI(64,32, 
+                                                                                vlSelfRef.qkv__DOT__input_vec
+                                                                                [
+                                                                                (0x3fU 
+                                                                                & (IData)(vlSelfRef.qkv__DOT__j))]), 
+                                                                           VL_EXTENDS_QI(64,32, 
+                                                                                (((IData)(vlSelfRef.qkv__DOT__i) 
+                                                                                == (IData)(vlSelfRef.qkv__DOT__j))
+                                                                                 ? 0x4000U
+                                                                                 : 0U))), 0xeU));
+            vlSelfRef.qkv__DOT__next_acc_v = (vlSelfRef.qkv__DOT__acc_v 
+                                              + VL_SHIFTRS_QQI(64,64,32, 
+                                                               VL_MULS_QQQ(64, 
+                                                                           VL_EXTENDS_QI(64,32, 
+                                                                                vlSelfRef.qkv__DOT__input_vec
+                                                                                [
+                                                                                (0x3fU 
+                                                                                & (IData)(vlSelfRef.qkv__DOT__j))]), 
+                                                                           VL_EXTENDS_QI(64,32, 
+                                                                                (((IData)(vlSelfRef.qkv__DOT__i) 
+                                                                                == (IData)(vlSelfRef.qkv__DOT__j))
+                                                                                 ? 0x4000U
+                                                                                 : 0U))), 0xeU));
+        } else if (vlSelfRef.start) {
+            vlSelfRef.qkv__DOT__next_state = 1U;
+            vlSelfRef.qkv__DOT__next_j = 0U;
+            vlSelfRef.qkv__DOT__next_acc_q = 0ULL;
+            vlSelfRef.qkv__DOT__next_acc_k = 0ULL;
+            vlSelfRef.qkv__DOT__next_acc_v = 0ULL;
+        }
+    }
+}
+
+void Vqkv___024root___eval_triggers__ico(Vqkv___024root* vlSelf);
+
+bool Vqkv___024root___eval_phase__ico(Vqkv___024root* vlSelf) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vqkv___024root___eval_phase__ico\n"); );
+    Vqkv__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    auto& vlSelfRef = std::ref(*vlSelf).get();
+    // Init
+    CData/*0:0*/ __VicoExecute;
+    // Body
+    Vqkv___024root___eval_triggers__ico(vlSelf);
+    __VicoExecute = vlSelfRef.__VicoTriggered.any();
+    if (__VicoExecute) {
+        Vqkv___024root___eval_ico(vlSelf);
+    }
+    return (__VicoExecute);
+}
+
 void Vqkv___024root___eval_act(Vqkv___024root* vlSelf) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vqkv___024root___eval_act\n"); );
     Vqkv__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
@@ -23,68 +151,158 @@ void Vqkv___024root___eval_nba(Vqkv___024root* vlSelf) {
     }
 }
 
+extern const VlWide<64>/*2047:0*/ Vqkv__ConstPool__CONST_h6be9aa18_0;
+
 VL_INLINE_OPT void Vqkv___024root___nba_sequent__TOP__0(Vqkv___024root* vlSelf) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vqkv___024root___nba_sequent__TOP__0\n"); );
     Vqkv__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Body
-    vlSelfRef.done = ((~ (IData)(vlSelfRef.rst)) & (IData)(vlSelfRef.start));
     if (vlSelfRef.rst) {
+        vlSelfRef.qkv__DOT__j = 0U;
         IData/*31:0*/ __Vilp1;
         __Vilp1 = 0U;
         while ((__Vilp1 <= 0x3fU)) {
-            vlSelfRef.qkv__DOT__Q_reg[__Vilp1] = 0U;
+            vlSelfRef.qkv__DOT__Q_reg[__Vilp1] = Vqkv__ConstPool__CONST_h6be9aa18_0[__Vilp1];
             __Vilp1 = ((IData)(1U) + __Vilp1);
         }
         IData/*31:0*/ __Vilp2;
         __Vilp2 = 0U;
         while ((__Vilp2 <= 0x3fU)) {
-            vlSelfRef.qkv__DOT__K_reg[__Vilp2] = 0U;
+            vlSelfRef.qkv__DOT__K_reg[__Vilp2] = Vqkv__ConstPool__CONST_h6be9aa18_0[__Vilp2];
             __Vilp2 = ((IData)(1U) + __Vilp2);
         }
         IData/*31:0*/ __Vilp3;
         __Vilp3 = 0U;
         while ((__Vilp3 <= 0x3fU)) {
-            vlSelfRef.qkv__DOT__V_reg[__Vilp3] = 0U;
+            vlSelfRef.qkv__DOT__V_reg[__Vilp3] = Vqkv__ConstPool__CONST_h6be9aa18_0[__Vilp3];
             __Vilp3 = ((IData)(1U) + __Vilp3);
         }
-    } else if (vlSelfRef.start) {
-        IData/*31:0*/ __Vilp4;
-        __Vilp4 = 0U;
-        while ((__Vilp4 <= 0x3fU)) {
-            vlSelfRef.qkv__DOT__Q_reg[__Vilp4] = vlSelfRef.input_vec_flat[__Vilp4];
-            __Vilp4 = ((IData)(1U) + __Vilp4);
+        vlSelfRef.qkv__DOT__acc_q = 0ULL;
+        vlSelfRef.qkv__DOT__acc_k = 0ULL;
+        vlSelfRef.qkv__DOT__acc_v = 0ULL;
+        vlSelfRef.qkv__DOT__i = 0U;
+        vlSelfRef.qkv__DOT__state = 0U;
+    } else {
+        vlSelfRef.qkv__DOT__j = vlSelfRef.qkv__DOT__next_j;
+        if ((2U == (IData)(vlSelfRef.qkv__DOT__state))) {
+            VL_ASSIGNSEL_WI(2048,32,(0x7ffU & VL_SHIFTL_III(11,32,32, (IData)(vlSelfRef.qkv__DOT__i), 5U)), vlSelfRef.qkv__DOT__Q_reg, (IData)(vlSelfRef.qkv__DOT__acc_q));
+            VL_ASSIGNSEL_WI(2048,32,(0x7ffU & VL_SHIFTL_III(11,32,32, (IData)(vlSelfRef.qkv__DOT__i), 5U)), vlSelfRef.qkv__DOT__K_reg, (IData)(vlSelfRef.qkv__DOT__acc_k));
+            VL_ASSIGNSEL_WI(2048,32,(0x7ffU & VL_SHIFTL_III(11,32,32, (IData)(vlSelfRef.qkv__DOT__i), 5U)), vlSelfRef.qkv__DOT__V_reg, (IData)(vlSelfRef.qkv__DOT__acc_v));
         }
-        IData/*31:0*/ __Vilp5;
-        __Vilp5 = 0U;
-        while ((__Vilp5 <= 0x3fU)) {
-            vlSelfRef.qkv__DOT__K_reg[__Vilp5] = vlSelfRef.input_vec_flat[__Vilp5];
-            __Vilp5 = ((IData)(1U) + __Vilp5);
+        vlSelfRef.qkv__DOT__acc_q = vlSelfRef.qkv__DOT__next_acc_q;
+        vlSelfRef.qkv__DOT__acc_k = vlSelfRef.qkv__DOT__next_acc_k;
+        vlSelfRef.qkv__DOT__acc_v = vlSelfRef.qkv__DOT__next_acc_v;
+        vlSelfRef.qkv__DOT__i = vlSelfRef.qkv__DOT__next_i;
+        vlSelfRef.qkv__DOT__state = vlSelfRef.qkv__DOT__next_state;
+    }
+    IData/*31:0*/ __Vilp4;
+    __Vilp4 = 0U;
+    while ((__Vilp4 <= 0x3fU)) {
+        vlSelfRef.Q_flat[__Vilp4] = vlSelfRef.qkv__DOT__Q_reg[__Vilp4];
+        __Vilp4 = ((IData)(1U) + __Vilp4);
+    }
+    IData/*31:0*/ __Vilp5;
+    __Vilp5 = 0U;
+    while ((__Vilp5 <= 0x3fU)) {
+        vlSelfRef.K_flat[__Vilp5] = vlSelfRef.qkv__DOT__K_reg[__Vilp5];
+        __Vilp5 = ((IData)(1U) + __Vilp5);
+    }
+    IData/*31:0*/ __Vilp6;
+    __Vilp6 = 0U;
+    while ((__Vilp6 <= 0x3fU)) {
+        vlSelfRef.V_flat[__Vilp6] = vlSelfRef.qkv__DOT__V_reg[__Vilp6];
+        __Vilp6 = ((IData)(1U) + __Vilp6);
+    }
+    vlSelfRef.done = 0U;
+    vlSelfRef.qkv__DOT__next_i = vlSelfRef.qkv__DOT__i;
+    vlSelfRef.qkv__DOT__next_state = vlSelfRef.qkv__DOT__state;
+    vlSelfRef.qkv__DOT__next_j = vlSelfRef.qkv__DOT__j;
+    vlSelfRef.qkv__DOT__next_acc_q = vlSelfRef.qkv__DOT__acc_q;
+    vlSelfRef.qkv__DOT__next_acc_k = vlSelfRef.qkv__DOT__acc_k;
+    vlSelfRef.qkv__DOT__next_acc_v = vlSelfRef.qkv__DOT__acc_v;
+    if ((2U & (IData)(vlSelfRef.qkv__DOT__state))) {
+        if ((1U & (IData)(vlSelfRef.qkv__DOT__state))) {
+            vlSelfRef.done = 1U;
+            vlSelfRef.qkv__DOT__next_state = 0U;
+        } else {
+            vlSelfRef.qkv__DOT__next_state = ((0x3fU 
+                                               == (IData)(vlSelfRef.qkv__DOT__i))
+                                               ? 3U
+                                               : 1U);
         }
-        IData/*31:0*/ __Vilp6;
-        __Vilp6 = 0U;
-        while ((__Vilp6 <= 0x3fU)) {
-            vlSelfRef.qkv__DOT__V_reg[__Vilp6] = vlSelfRef.input_vec_flat[__Vilp6];
-            __Vilp6 = ((IData)(1U) + __Vilp6);
+        if ((1U & (~ (IData)(vlSelfRef.qkv__DOT__state)))) {
+            if ((0x3fU != (IData)(vlSelfRef.qkv__DOT__i))) {
+                vlSelfRef.qkv__DOT__next_i = (0x7fU 
+                                              & ((IData)(1U) 
+                                                 + (IData)(vlSelfRef.qkv__DOT__i)));
+                vlSelfRef.qkv__DOT__next_j = 0U;
+                vlSelfRef.qkv__DOT__next_acc_q = 0ULL;
+                vlSelfRef.qkv__DOT__next_acc_k = 0ULL;
+                vlSelfRef.qkv__DOT__next_acc_v = 0ULL;
+            }
         }
-    }
-    IData/*31:0*/ __Vilp7;
-    __Vilp7 = 0U;
-    while ((__Vilp7 <= 0x3fU)) {
-        vlSelfRef.Q_flat[__Vilp7] = vlSelfRef.qkv__DOT__Q_reg[__Vilp7];
-        __Vilp7 = ((IData)(1U) + __Vilp7);
-    }
-    IData/*31:0*/ __Vilp8;
-    __Vilp8 = 0U;
-    while ((__Vilp8 <= 0x3fU)) {
-        vlSelfRef.K_flat[__Vilp8] = vlSelfRef.qkv__DOT__K_reg[__Vilp8];
-        __Vilp8 = ((IData)(1U) + __Vilp8);
-    }
-    IData/*31:0*/ __Vilp9;
-    __Vilp9 = 0U;
-    while ((__Vilp9 <= 0x3fU)) {
-        vlSelfRef.V_flat[__Vilp9] = vlSelfRef.qkv__DOT__V_reg[__Vilp9];
-        __Vilp9 = ((IData)(1U) + __Vilp9);
+    } else {
+        if ((1U & (~ (IData)(vlSelfRef.qkv__DOT__state)))) {
+            if (vlSelfRef.start) {
+                vlSelfRef.qkv__DOT__next_i = 0U;
+            }
+        }
+        if ((1U & (IData)(vlSelfRef.qkv__DOT__state))) {
+            if ((0x3fU == (IData)(vlSelfRef.qkv__DOT__j))) {
+                vlSelfRef.qkv__DOT__next_state = 2U;
+            }
+            if ((0x3fU != (IData)(vlSelfRef.qkv__DOT__j))) {
+                vlSelfRef.qkv__DOT__next_j = (0x7fU 
+                                              & ((IData)(1U) 
+                                                 + (IData)(vlSelfRef.qkv__DOT__j)));
+            }
+            vlSelfRef.qkv__DOT__next_acc_q = (vlSelfRef.qkv__DOT__acc_q 
+                                              + VL_SHIFTRS_QQI(64,64,32, 
+                                                               VL_MULS_QQQ(64, 
+                                                                           VL_EXTENDS_QI(64,32, 
+                                                                                vlSelfRef.qkv__DOT__input_vec
+                                                                                [
+                                                                                (0x3fU 
+                                                                                & (IData)(vlSelfRef.qkv__DOT__j))]), 
+                                                                           VL_EXTENDS_QI(64,32, 
+                                                                                (((IData)(vlSelfRef.qkv__DOT__i) 
+                                                                                == (IData)(vlSelfRef.qkv__DOT__j))
+                                                                                 ? 0x4000U
+                                                                                 : 0U))), 0xeU));
+            vlSelfRef.qkv__DOT__next_acc_k = (vlSelfRef.qkv__DOT__acc_k 
+                                              + VL_SHIFTRS_QQI(64,64,32, 
+                                                               VL_MULS_QQQ(64, 
+                                                                           VL_EXTENDS_QI(64,32, 
+                                                                                vlSelfRef.qkv__DOT__input_vec
+                                                                                [
+                                                                                (0x3fU 
+                                                                                & (IData)(vlSelfRef.qkv__DOT__j))]), 
+                                                                           VL_EXTENDS_QI(64,32, 
+                                                                                (((IData)(vlSelfRef.qkv__DOT__i) 
+                                                                                == (IData)(vlSelfRef.qkv__DOT__j))
+                                                                                 ? 0x4000U
+                                                                                 : 0U))), 0xeU));
+            vlSelfRef.qkv__DOT__next_acc_v = (vlSelfRef.qkv__DOT__acc_v 
+                                              + VL_SHIFTRS_QQI(64,64,32, 
+                                                               VL_MULS_QQQ(64, 
+                                                                           VL_EXTENDS_QI(64,32, 
+                                                                                vlSelfRef.qkv__DOT__input_vec
+                                                                                [
+                                                                                (0x3fU 
+                                                                                & (IData)(vlSelfRef.qkv__DOT__j))]), 
+                                                                           VL_EXTENDS_QI(64,32, 
+                                                                                (((IData)(vlSelfRef.qkv__DOT__i) 
+                                                                                == (IData)(vlSelfRef.qkv__DOT__j))
+                                                                                 ? 0x4000U
+                                                                                 : 0U))), 0xeU));
+        } else if (vlSelfRef.start) {
+            vlSelfRef.qkv__DOT__next_state = 1U;
+            vlSelfRef.qkv__DOT__next_j = 0U;
+            vlSelfRef.qkv__DOT__next_acc_q = 0ULL;
+            vlSelfRef.qkv__DOT__next_acc_k = 0ULL;
+            vlSelfRef.qkv__DOT__next_acc_v = 0ULL;
+        }
     }
 }
 
@@ -124,6 +342,9 @@ bool Vqkv___024root___eval_phase__nba(Vqkv___024root* vlSelf) {
 }
 
 #ifdef VL_DEBUG
+VL_ATTR_COLD void Vqkv___024root___dump_triggers__ico(Vqkv___024root* vlSelf);
+#endif  // VL_DEBUG
+#ifdef VL_DEBUG
 VL_ATTR_COLD void Vqkv___024root___dump_triggers__nba(Vqkv___024root* vlSelf);
 #endif  // VL_DEBUG
 #ifdef VL_DEBUG
@@ -135,9 +356,28 @@ void Vqkv___024root___eval(Vqkv___024root* vlSelf) {
     Vqkv__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Init
+    IData/*31:0*/ __VicoIterCount;
+    CData/*0:0*/ __VicoContinue;
     IData/*31:0*/ __VnbaIterCount;
     CData/*0:0*/ __VnbaContinue;
     // Body
+    __VicoIterCount = 0U;
+    vlSelfRef.__VicoFirstIteration = 1U;
+    __VicoContinue = 1U;
+    while (__VicoContinue) {
+        if (VL_UNLIKELY(((0x64U < __VicoIterCount)))) {
+#ifdef VL_DEBUG
+            Vqkv___024root___dump_triggers__ico(vlSelf);
+#endif
+            VL_FATAL_MT("qkv.sv", 1, "", "Input combinational region did not converge.");
+        }
+        __VicoIterCount = ((IData)(1U) + __VicoIterCount);
+        __VicoContinue = 0U;
+        if (Vqkv___024root___eval_phase__ico(vlSelf)) {
+            __VicoContinue = 1U;
+        }
+        vlSelfRef.__VicoFirstIteration = 0U;
+    }
     __VnbaIterCount = 0U;
     __VnbaContinue = 1U;
     while (__VnbaContinue) {
